@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*logo styling*/
+.logo {
+    width: 6%;
+    height: 7%;
+}
+
+/*product_stiling*/
+.card-img-top{
+width: 100%;
+height: 200px;
+object-fit:contain;
+}
+
+/*index.php background*/
+section {
+    min-height: 100vh;
+    background: url('./image/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*admin_image*/
+.admin_image {
+    width: 100px;
+    object-fit: contain;
+}
+
+
+/*botton-design*/
+.botton-design{
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+/* cart_image */
+.cart_img{
+    width: 50px;
+    height: 50px;
+}
+
+
